@@ -1,0 +1,37 @@
+{% extends "layouts.njk" %}
+
+{% block content %}
+
+<section class="card table">
+
+    <a class="teachers-create" href="/teachers/create">Fazer cadastro</a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>Acompanhamento</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for teacher in teachers %}
+            <tr>
+                <td>
+                    <span style="background-image: url({{teacher.avatar_url}})"></span>
+                    {{teacher.name}}
+                </td>
+                <td class="areas">
+                    {% for area in teacher.acting_area %}
+                        <span>{{area}}</span>
+                    {% endfor %}
+                </td>
+                
+                <td><a href="/teachers/{{teacher.id}}">Ver mais</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+</section>
+{% endblock content %}

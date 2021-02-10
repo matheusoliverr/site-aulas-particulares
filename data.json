@@ -1,0 +1,86 @@
+{
+  "students": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1558021211-6d1403321394?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDB8fHRlYWNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Leandro",
+      "birth": 1108080000000,
+      "email": "leandro@email.com",
+      "grade": "9F",
+      "study_load": "50",
+      "id": 1,
+      "birth_day": "11 / 02"
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHN0dWR5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Melissa",
+      "birth": 1045008000000,
+      "email": "melissa@email.com",
+      "grade": "2M",
+      "study_load": "60",
+      "id": 2,
+      "birth_day": "12 / 02"
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1534612368275-e4cfd0f21b2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxzdHVkeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Júlia",
+      "birth": 1016668800000,
+      "email": "julia@email.com",
+      "grade": "3M",
+      "study_load": "40",
+      "id": 3,
+      "birth_day": "21 / 03"
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1561063764-caa56339fab9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTg5fHxzdHVkeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Marcelo",
+      "birth": 1142899200000,
+      "email": "marcelo@email.com",
+      "grade": "7F",
+      "study_load": "35",
+      "id": 4,
+      "birth_day": "21 / 03"
+    }
+  ],
+  "teachers": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1558962009-34fff2bd2e9b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHRlYWNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Camila",
+      "birth": 787104000000,
+      "education_level": "4",
+      "class_type": "1",
+      "acting_area": "Química",
+      "creation_date": 1611277563295,
+      "id": 2
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1517598024396-46c53fb391a1?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTR8MTQ4NTE2MHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Paulo",
+      "birth": 630374400000,
+      "education_level": "3",
+      "class_type": "2",
+      "acting_area": "Português",
+      "creation_date": 1611277724382,
+      "id": 3
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1561677843-39dee7a319ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fHRlYWNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Marcos",
+      "birth": 503193600000,
+      "education_level": "3",
+      "class_type": "1",
+      "acting_area": "Filosofia, Sociologia",
+      "creation_date": 1611291715595,
+      "id": 4
+    },
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1518617840859-acd542e13a99?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Nnw4OTY5NjU0fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Larissa",
+      "birth": 705801600000,
+      "education_level": "2",
+      "class_type": "2",
+      "acting_area": "Educação Física",
+      "creation_date": 1611291780638,
+      "id": 5
+    }
+  ]
+}
